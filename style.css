@@ -1,0 +1,41 @@
+/*
+ Theme Name:   PhotoBlogster Child
+ Theme URI:    http://example.com/PhotoBlogster/
+ Description:  PhotoBlogster child theme
+ Author:       Ida Rossen
+ Author URI:   http://example.com
+ Template:     photoblogster
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  PhotoBlogster
+*/
+
+@import url(../photoblogster/style.css);
+
+.site-info {
+    background-color: black;
+}
+.copy-right-section {
+    color: white;
+    border: 0px solid black;
+}
+#wpforms-submit-51 {
+    background-color: rgb(240, 77, 117);
+    color: white;
+    border-radius: 7px;
+    border: 0px;
+}
+.custom-logo {
+    width: 85px;
+    height: 35px;
+    margin-top: 35px;
+}
+.navbar {
+    background-color: white;
+    color: white;
+}
+h4 {
+    color: rgb(240, 77, 117);
+}
